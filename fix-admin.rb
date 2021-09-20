@@ -29,8 +29,6 @@ module AdminPermisson
       puts "User logged in. IP address: #{@ip_address}"
     end
 
-    
-
   end
   
   
@@ -39,26 +37,12 @@ module AdminPermisson
     def login
       super
     end
-
-    def edit_users_profile
-      super
-    end
-
-    def change_password
-      super
-    end
-
-
   end
   
   
   class Buyer < User
     include BuyerPermission
     def login
-      super
-    end
-
-    def buy
       super
     end
   end
