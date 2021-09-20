@@ -22,9 +22,6 @@ end
 
 
 class BananaCake < Confection
-    def prepare
-        super
-    end
 end
 
 bcake = BananaCake.new()
