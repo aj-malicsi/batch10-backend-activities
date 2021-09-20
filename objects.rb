@@ -1,0 +1,52 @@
+# class Bot
+#     # attr_reader :name, :model
+#     attr_accessor :name, :model
+
+#     def initialize(name, model)
+#         @name = name
+#         @model = model
+#     end
+
+#     def beep
+#         puts "boop!"
+#     end
+
+#     def info
+#         puts "Hi! I'm #{name}, my model number is #{model}"
+#     end
+# end
+
+# robot = Bot.new("Roberto", "v2.1")
+
+
+
+class Profile
+    attr_accessor :full_name, :age, :address, :work
+
+    def initialize(full_name, age, address, work)
+      @full_name = full_name
+      @age = age
+      @address = address
+      @work = work
+      
+    end
+end
+  
+  my_profile = Profile.new('Juan', 18, 'Bulacan', 'Instructor')
+  
+  puts my_profile.full_name
+  my_profile.full_name = 'Juan Cruz'
+  
+  my_profile.age = 25
+  my_profile.work = 'Software Engineer'
+  
+  puts my_profile.full_name
+  puts my_profile.age
+  puts my_profile.work
+  puts my_profile.address
+
+#
+#   Juan Cruz
+#   25
+#   Software Engineer
+#
