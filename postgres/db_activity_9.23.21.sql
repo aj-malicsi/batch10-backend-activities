@@ -8,31 +8,15 @@ CREATE TABLE students(
 
 )
 
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(1, 'juan', 'Blank', 'cruz', 18, 'Manila');
-
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(2, 'Anne', 'Blank', 'Wall', 20, 'Manila');
-
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(3, 'Theresa', 'Blank', 'Joseph', 21, 'Manila');
-
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(4, 'Issac', 'Blank', 'Gray', 19, 'Laguna');
-
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(5, 'Zack', 'Blank', 'Matthews', 22, 'Marikina');
-
-INSERT INTO students(id, first_name, middle_name, last_name, age, location)
-VALUES(6, 'Finn', 'Blank', 'Lam', 25, 'Manila');
-
-
-SELECT * FROM students
+INSERT INTO 
+	students(id, first_name, middle_name, last_name, age, location)
+VALUES
+	(1, 'juan', 'Blank', 'cruz', 18, 'Manila'),
+	(2, 'Anne', 'Blank', 'Wall', 20, 'Manila'),
+	(3, 'Theresa', 'Blank', 'Joseph', 21, 'Manila'),
+	(4, 'Issac', 'Blank', 'Gray', 19, 'Laguna'),
+	(5, 'Zack', 'Blank', 'Matthews', 22, 'Marikina'),
+	(6, 'Finn', 'Blank', 'Lam', 25, 'Manila')
 
 
 UPDATE students
